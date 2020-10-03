@@ -27,21 +27,21 @@ namespace Practica_1
         }
 
         private void button_Mostrar_Click(object sender, EventArgs e) {
-            FormMostrar f4 = new FormMostrar(listaPersonas);
-            f4.Show();
+            FormMostrar f3 = new FormMostrar(listaPersonas);
+            f3.Show();
         }
 
         private void button_ConsultarDni_Click(object sender, EventArgs e) {
-            FormDni f3 = new FormDni(listaPersonas);
-            f3.Show();
+            FormDni f4 = new FormDni(listaPersonas);
+            f4.Show();
         }
 
         private void button_MostrarLargo_Click(object sender, EventArgs e) {
             int j = listaPersonas.Count;
             if (j >= 3)
             {
-                FormMasLargos f6 = new FormMasLargos(listaPersonas);
-                f6.Show();
+                FormMasLargos f5 = new FormMasLargos(listaPersonas);
+                f5.Show();
             }
             else
             {
@@ -50,8 +50,8 @@ namespace Practica_1
         }
 
         private void button_FaltanDatos_Click(object sender, EventArgs e) {
-            FormIncompletos f5 = new FormIncompletos(listaPersonas);
-            f5.Show();
+            FormIncompletos f6 = new FormIncompletos(listaPersonas);
+            f6.Show();
         }
 
         private void button_Salir_Click(object sender, EventArgs e) {
